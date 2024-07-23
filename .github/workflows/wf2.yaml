@@ -1,0 +1,9 @@
+name: testpush
+
+on: push
+
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo wf2
