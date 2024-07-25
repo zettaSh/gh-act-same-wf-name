@@ -11,4 +11,6 @@ jobs:
         with:
           fetch-depth: 1
 
+      - run: env
+
       - run: ls -la
